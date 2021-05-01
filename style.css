@@ -1,0 +1,18 @@
+@import url("reset.css");
+
+.wrap {
+    display: flex;
+    padding: 50px 20px;
+    justify-content: center;
+}
+
+.form_group {
+    margin-bottom: 20px;
+}
+
+.log_box {
+    width: 530px;
+    height: 210px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
