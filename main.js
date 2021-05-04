@@ -10,18 +10,19 @@ function connect() {
     websocket.onerror = (evt) => { onError(evt) };
 }
 
+// TODO: write to message log
 function onOpen(event) {
-    
+    console.log('connected!')
 }
 
 function onClose(event) {
-
+    console.log('disconnected!');
 }
 
 function onMessage(event) {
-
+    console.log(event.data);
 }
 
 function onError(event) {
-
+    console.error(event.data);
 }
